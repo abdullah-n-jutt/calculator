@@ -1,6 +1,6 @@
 def main():
     # Prompt the user for an arithmetic expression
-    expression = input("Enter an arithmetic expression (x y z): ")
+    expression = input("Expression = ")
 
     # Split the expression into components
     x, y, z = expression.split(" ")
