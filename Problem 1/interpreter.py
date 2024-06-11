@@ -1,7 +1,9 @@
 def main():
     expression = input("Expression = ")
 
-    x, y, z = expression.split(" ")
+    x = expression.split(" ")
+    y = expression.split(" ")
+    z = expression.split(" ")
 
     x = int(x)
     z = int(z)
