@@ -1,5 +1,3 @@
-# interpreter.py
-
 def main():
     # Prompt the user for an arithmetic expression
     expression = input("Enter an arithmetic expression (x y z): ")
