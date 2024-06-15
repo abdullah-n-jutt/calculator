@@ -7,11 +7,16 @@ def camel_to_snake(name):
             snake_case += c
     return snake_case
 
-# Prompt the user for a camel case variable name
-camel_case_name = input("Enter a camel case variable name: ")
+def main():
+    # Prompt the user for a camel case variable name
+    camel_case_name = input("Enter a camel case variable name: ")
 
-# Convert to snake case
-snake_case_name = camel_to_snake(camel_case_name)
+    # Convert to snake case
+    snake_case_name = camel_to_snake(camel_case_name)
 
-# Output the snake case variable name
-print("The snake case variable name is:", snake_case_name)
+    # Output the snake case variable name
+    print("The snake case variable name is:", snake_case_name)
+
+# Ensure the main function is called
+if __name__ == "__main__":
+    main()
