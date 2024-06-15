@@ -15,7 +15,7 @@ def main():
     snake_case_name = camel_to_snake(camel_case_name)
 
     # Output the snake case variable name
-    print("The snake case variable name is:", snake_case_name)
+    print(snake_case_name)
 
 # Ensure the main function is called
 if __name__ == "__main__":
